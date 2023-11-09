@@ -15,13 +15,15 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
+import Maps from './src/Maps';
 
 function App(): JSX.Element {
 
 
   return (
  <View style={styles.root}>
-  <Text>Start</Text>
+  {/* <Text>Start</Text> */}
+  <Maps />
  </View>
   );
 }
@@ -29,8 +31,8 @@ function App(): JSX.Element {
 const styles = StyleSheet.create({
  root:{
   flex:1,
-  alignItems: 'center',
-  justifyContent: 'center'
+  // alignItems: 'center',
+  // justifyContent: 'center'
 }
 });
 
